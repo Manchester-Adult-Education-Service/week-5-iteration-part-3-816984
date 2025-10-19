@@ -29,6 +29,12 @@
 #     print("Hello " + name)  # loop through and greet
 
 # Write your code below:
+friend1 = input("Adam")
+friend2 = input("Terry")
+friend3 = input("Jimmy")
+friends = ["Adam" , "Terry" , "Jimmy"]
+for name in friends:
+    print("Hello " + name)
 
 
 
@@ -59,7 +65,13 @@
 #     print("Message for other cases")
 
 # Write your code below:
-
+number = int(input("Enter a number between 1 to 10 "))
+if number > 10:
+    print("invalid number, try lower number")
+elif number < 1:
+    print("invalid number, try higher number")
+else:
+    print("correct number")
 
 
 # -------------------------------------------
@@ -85,6 +97,17 @@
 
 # Write your code below:
 
+questions = ["what is 2 + 2",  "how is the weather like",  "first letter of the alphabet?", ]
+for q in questions:
+    answer = input(q)
+    if q == "what is 2 + 2 ?"  and answer == "4":
+        print("correct answer")
+    elif q == "how is the weather like " and answer == "blue":
+        print("good, it is")
+    elif q == "first letter of the alphabet? , " and answer == "a":
+        print("good")
+    else:
+        print("incorrect, try again")
 
 
 # -------------------------------------------
